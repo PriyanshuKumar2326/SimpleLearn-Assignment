@@ -294,7 +294,7 @@
     "socials": [
       {
         "id": 1,
-        "icon": "/images/instagram.svg",
+        "icon": "/images/youtube.svg",
         "href": "#"
       },
       {
@@ -309,7 +309,7 @@
       },
       {
         "id": 4,
-        "icon": "/images/youtube.svg",
+        "icon": "/images/instagram.svg",
         "href": "#"
       }
     ],

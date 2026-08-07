@@ -170,14 +170,14 @@ export default function Navbar({
 
         {/* Action Buttons */}
         <div className="hidden items-center gap-3 lg:flex">
-          <Link aria-disabled
+          <Link aria-disabled={true}
             href={actions.login.href}
             className="text-sm font-semibold text-[#4CAF4F] transition hover:text-[#439947]"
           >
             {actions.login.label}
           </Link>
 
-          <Link aria-disabled
+          <Link aria-disabled={true}
             href={actions.signup.href}
             className="inline-flex min-h-11 items-center rounded-md bg-[#4CAF4F] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#439947]"
           >
