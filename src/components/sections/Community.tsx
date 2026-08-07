@@ -22,7 +22,7 @@ export default function Community({ data }: CommunityComponentProps) {
           {data.cards.map(({ id, image, alt, title, description }) => (
             <Card
               key={id}
-              className="rounded-lg p-8 text-center transition-all "
+              className="rounded-lg p-8 w-[299px] text-center transition-all "
             >
               <Image
                 src={image}
@@ -32,7 +32,7 @@ export default function Community({ data }: CommunityComponentProps) {
                 className="mx-auto"
               />
 
-              <h3 className="mt-5 text-xl font-bold leading-tight text-[#263238]">
+              <h3 className="mt-5 text-[28px] font-bold leading-tight text-[#4D4D4D]">
                 {title}
               </h3>
 
