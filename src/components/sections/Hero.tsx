@@ -23,12 +23,7 @@ export default function Hero({ data }: HeroComponentProps) {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Button href={data.button.href}>{data.button.label}</Button>
-            <a
-              href="#services"
-              className="text-sm font-semibold text-[#263238] transition hover:text-[#4CAF4F]"
-            >
-              Explore services
-            </a>
+           
           </div>
         </div>
 

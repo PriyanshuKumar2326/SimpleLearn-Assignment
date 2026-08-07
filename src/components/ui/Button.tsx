@@ -27,7 +27,7 @@ export default function Button({
   return (
     <Link
       href={href}
-      className={`inline-flex min-h-11 items-center justify-center rounded-md px-5 py-3 text-sm font-semibold transition ${variantClasses[variant]} ${className}`}
+      className={`inline-flex min-h-11 items-center justify-center rounded-md px-10 py-4 text-sm font-semibold transition ${variantClasses[variant]} ${className}`}
       {...props}
     >
       {children}
