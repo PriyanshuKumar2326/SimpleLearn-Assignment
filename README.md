@@ -98,34 +98,6 @@ The navigation header provides a seamless single-page scrolling experience:
 
 ## 🚀 Getting Started
 
-### 1. Installation
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/PriyanshuKumar2326/simpleLearn_Assignment.git
-cd simpleLearn_Assignment
-npm install
-```
-
-### 2. Run Development Server
-Start the local development server:
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 3. Production Build & Test
-Validate compilation, TypeScript checks, and build performance:
-```bash
-npm run build
-npm start
-```
-
----
-
-## 💡 Beginner's Guide: How to Make Changes
-
-### How to update page text, images, or links?
-Edit `src/data/data.json`. All headings, paragraphs, button labels, and image paths are configured in this file.
 
 ### How to add a new section?
 1. Add the section's content structure to `src/data/data.json`.
