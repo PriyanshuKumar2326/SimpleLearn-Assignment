@@ -27,7 +27,7 @@ export default function MarketingCard({
   />
 </div>
 
-     <div className="absolute inset-x-4 -bottom-4 flex min-h-45 flex-col items-center justify-between rounded-lg bg-[#F5F7FA] px-6 py-6 text-center shadow-lg shadow-gray-900/10">
+     <div className="absolute bottom-[-16px] left-1/2 w-[320px] -translate-x-1/2 rounded-xl bg-[#F5F7FA] px-6 py-6 text-center shadow-lg shadow-gray-900/10">
   <h3 className="text-[20px] font-medium leading-8 text-[#717171]">
     {title}
   </h3>
