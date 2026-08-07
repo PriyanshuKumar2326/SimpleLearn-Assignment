@@ -135,8 +135,8 @@ export default function Navbar({
           <Image
             src={logo.image}
             alt={logo.alt}
-            width={155}
-            height={24}
+            width={115}
+            height={20}
             priority
             style={{ width: "auto", height: "auto" }}
           />
