@@ -22,7 +22,7 @@ export default function Community({ data }: CommunityComponentProps) {
           {data.cards.map(({ id, image, alt, title, description }) => (
             <Card
               key={id}
-              className="rounded-lg p-8 w-[299px] text-center transition-all "
+              className="mx-auto rounded-lg p-8 w-[299px] text-center transition-all "
             >
               <Image
                 src={image}
