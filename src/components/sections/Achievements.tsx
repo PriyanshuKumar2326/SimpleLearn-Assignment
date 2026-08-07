@@ -13,7 +13,7 @@ export default function Achievements({ data }: AchievementsProps) {
       <Container className="grid items-center gap-10 lg:grid-cols-2">
         {/* Left Content */}
         <div>
-          <h2 className="text-3xl font-bold leading-tight text-[#263238] sm:text-4xl">
+          <h2 className="text-3xl font-bold leading-tight text-[#4D4D4D] sm:text-4xl">
             {data.title.line1}
             <span className="block text-[#4CAF4F]">
               {data.title.line2}
@@ -37,7 +37,7 @@ export default function Achievements({ data }: AchievementsProps) {
               />
 
               <div>
-                <dt className="text-2xl font-bold text-[#263238]">
+                <dt className="text-3xl font-bold text-[#4D4D4D]">
                   {value}
                 </dt>
 
