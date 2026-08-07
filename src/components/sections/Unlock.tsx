@@ -23,7 +23,7 @@ export default function Unlock({ data }: UnlockProps) {
         </div>
 
         <div className="max-w-xl">
-          <h2 className="text-3xl font-bold leading-tight text-[#263238] sm:text-4xl">
+          <h2 className="text-3xl font-bold leading-tight text-[#4D4D4D] sm:text-4xl">
             {data.title}
           </h2>
           <p className="mt-4 text-base leading-7 text-[#717171]">
