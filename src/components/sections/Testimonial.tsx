@@ -31,7 +31,7 @@ export default function Testimonial({ data }: TestimonialComponentProps) {
           </p>
           <p className="mt-1 text-lm text-[#7f7c7c]">{data.author.company}</p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-3">
+           <div className="mt-8 flex  items-center gap-3">
             {data.logos.map(({ id, image, alt }) => (
               <span
                 key={id}
