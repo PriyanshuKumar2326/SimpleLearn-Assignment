@@ -16,7 +16,7 @@ A modern, responsive, and performance-optimized landing page built with **Next.j
 ## 📁 Directory Structure & File Map
 
 ```text
-simpleLearn_Assignment/
+simpleLearn-Assignment/
 ├── public/                     # Static image assets (logos, illustrations, brand icons)
 │   └── images/
 ├── src/
